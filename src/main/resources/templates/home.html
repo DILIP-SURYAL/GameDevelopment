@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section},'HOME - Demo Project')}">
+<head>
+    <meta charset="UTF-8">
+    <title th:with="title=${'hello'}"> home</title>
+</head>
+<body>
+<section class="banner d-flex justify-content-center align-items-center">
+    <div class="text-center">
+        <h1>This is demo project</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam cumque, earum eius eveniet, explicabo id
+            incidunt nam natus nihil omnis pariatur repellat tenetur vero.</p>
+        <button class="btn btn-primary">submit</button>
+    </div>
+
+</section>
+
+</body>
+</html>

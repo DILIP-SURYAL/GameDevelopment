@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{normal/base::layout(~{::section},'DASHBOARD - Demo Project')}">
+<head>
+    <meta charset="UTF-8" >
+    <title>about</title>
+</head>
+<body>
+<section>
+    <div class="card text-center">
+        <div class="card-body ">
+            <div class="container"><img th:src="@{/img/default.jpeg}" style=""></div>
+        </div>
+        <h1>start Adding your Contact to the cloud</h1>
+        <button class="btn btn-primary"><a th:href="@{/user/add-contact}" style="color: white">Add contacts</a></button>
+    </div>
+</section>
+</body>
+</html>

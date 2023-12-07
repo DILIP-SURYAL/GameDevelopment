@@ -1,0 +1,87 @@
+body {
+
+}
+
+.bg-primary {
+
+    background: green;
+
+
+}
+
+.banner {
+
+
+    width: 100%;
+    height: 93vh;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../img/DemoProject.jpeg");
+    background-size: cover;
+    color: white;
+
+}
+
+.my-card {
+    padding: 20px;
+    background: #FFFFFF !important;
+
+}
+
+.sidebar {
+
+    width: 18%;
+    background: beige;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar a {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+.corssBtn{
+
+
+     top: 0;
+    position: absolute;
+    right: 35px;
+    font-size: 30px;
+    /*cursor: pointer;*/
+}
+.sidebar a:hover {
+    background: #e2e2e2;
+
+}
+.my_profile_picture{
+width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.sidebar .divider {
+
+    height: .5px;
+    width: 100%;
+    background: #e2e2e2;
+    margin-top: 10px;
+}
+
+.content {
+
+    margin-left: 20%;
+}
+.search-container{
+    position: relative;
+}
+.search-result{
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    display: none;
+}
